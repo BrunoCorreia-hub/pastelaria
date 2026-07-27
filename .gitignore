@@ -1,0 +1,5 @@
+.vscode/
+.agents/
+
+.DS_Store
+Thumbs.db
