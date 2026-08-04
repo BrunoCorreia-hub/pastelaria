@@ -39,7 +39,8 @@
     --text: #0f3d1a;              /* Texto principal usando o verde escuro para harmonia */
     --text-light: #526355;        /* Texto secundário (verde acinzentado sutil) */
     --white: var(--surface);      /* Evita superfícies brancas fora da paleta */
-    --footer: #2d3331;            /* Cinza grafite exclusivo do rodapé */
+    --footer: #2d3331;
+    --credits: #1c6820;           /* Cinza grafite exclusivo do rodapé */
 
     /* Efeitos */
     --shadow: 0 4px 20px rgba(15, 61, 26, 0.08);
@@ -1014,6 +1015,14 @@ section {
 .credits {
     text-align: center;
     padding: 12px 20px;
+}
+
+.identification{
+    color: var(--credits);
+    font-weight: bold;
+}
+.identification:hover{
+    color: var(--primary-dark);
 }
 
 /* ========== 16. RESPONSIVIDADE ========== */
