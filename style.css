@@ -210,7 +210,7 @@ p {
 .logo {
     font-size: 1.5rem;
     font-weight: 800;
-    color: var(--primary);
+    color: var(--text);
 }
 
 /* Menu de navegação */
@@ -469,7 +469,7 @@ section {
 
 .sobre-image img {
     width: 100%;
-    height: 100%;
+    height: 600px;
     object-fit: cover;
     transition: var(--transition);
 }
@@ -687,6 +687,11 @@ section {
     margin-bottom: 10px;
 }
 
+.destaque-combo{
+    display: flex;
+    gap: 15px;
+}
+
 /* Badge do destaque */
 .destaque-badge {
     display: inline-block;
@@ -697,6 +702,7 @@ section {
     font-size: 0.8rem;
     font-weight: 600;
     margin-top: 10px;
+    text-align: center;
 }
 
 /* ========== 11. SEÇÃO BENEFÍCIOS ========== */
@@ -837,6 +843,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
 }
 
 /* Item de informação */
@@ -884,7 +891,7 @@ section {
 }
 .mapa-placeholder iframe{
     width: 100%;
-    height: 350px;
+    height: 300px;
 }
 
 .mapa-placeholder:hover {
